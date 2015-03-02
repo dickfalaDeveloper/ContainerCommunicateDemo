@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="221" id="jjV-wz-q9W"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="vJf-fS-Sku" kind="embed" id="ODW-qg-Zuf"/>
+                                    <segue destination="vJf-fS-Sku" kind="embed" identifier="communicateSegue" id="ODW-qg-Zuf"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dro-Zp-xpD">
@@ -47,12 +47,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="get value from container- show value:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX3-WL-cit">
-                                <rect key="frame" x="123" y="198" width="287" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqH-4l-cXv">
                                 <rect key="frame" x="279" y="242" width="88" height="26"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,6 +56,12 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="get value from container- show value:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pX3-WL-cit">
+                                <rect key="frame" x="170" y="197" width="287" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -74,11 +74,11 @@
                             <constraint firstAttribute="centerX" secondItem="WRL-Ws-9XN" secondAttribute="centerX" constant="-13.5" id="XRH-IJ-FW6"/>
                             <constraint firstItem="J4f-tV-WSf" firstAttribute="top" secondItem="CqH-4l-cXv" secondAttribute="bottom" constant="22" id="Xaq-QV-PKS"/>
                             <constraint firstAttribute="trailing" secondItem="J4f-tV-WSf" secondAttribute="trailing" id="fTe-Yh-XC3"/>
-                            <constraint firstItem="CqH-4l-cXv" firstAttribute="top" secondItem="pX3-WL-cit" secondAttribute="bottom" constant="23" id="g4S-WG-W2p"/>
-                            <constraint firstAttribute="centerX" secondItem="pX3-WL-cit" secondAttribute="centerX" constant="33.5" id="kNl-ZS-6pb"/>
+                            <constraint firstItem="CqH-4l-cXv" firstAttribute="top" secondItem="pX3-WL-cit" secondAttribute="bottom" constant="24" id="g4S-WG-W2p"/>
+                            <constraint firstAttribute="centerX" secondItem="pX3-WL-cit" secondAttribute="centerX" constant="-13.5" id="kNl-ZS-6pb"/>
                             <constraint firstAttribute="centerX" secondItem="CqH-4l-cXv" secondAttribute="centerX" constant="-23" id="syb-U8-2iW"/>
                             <constraint firstItem="FpO-WR-B75" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vub-hP-ocf"/>
-                            <constraint firstItem="pX3-WL-cit" firstAttribute="top" secondItem="dro-Zp-xpD" secondAttribute="bottom" constant="54" id="vuw-pl-X6c"/>
+                            <constraint firstItem="pX3-WL-cit" firstAttribute="top" secondItem="dro-Zp-xpD" secondAttribute="bottom" constant="53" id="vuw-pl-X6c"/>
                             <constraint firstItem="J4f-tV-WSf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zaV-Tb-FKB"/>
                         </constraints>
                     </view>

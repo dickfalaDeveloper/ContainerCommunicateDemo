@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		1A79242D1AA438CB0063C8B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A79242C1AA438CB0063C8B2 /* main.m */; };
 		1A7924301AA438CB0063C8B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A79242F1AA438CB0063C8B2 /* AppDelegate.m */; };
-		1A7924331AA438CB0063C8B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7924321AA438CB0063C8B2 /* ViewController.m */; };
+		1A7924331AA438CB0063C8B2 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7924321AA438CB0063C8B2 /* ParentViewController.m */; };
 		1A7924361AA438CB0063C8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7924341AA438CB0063C8B2 /* Main.storyboard */; };
 		1A7924381AA438CB0063C8B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7924371AA438CB0063C8B2 /* Images.xcassets */; };
 		1A79243B1AA438CB0063C8B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7924391AA438CB0063C8B2 /* LaunchScreen.xib */; };
 		1A7924471AA438CB0063C8B2 /* ContainerCommunication2DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7924461AA438CB0063C8B2 /* ContainerCommunication2DemoTests.m */; };
+		1A7924521AA43E9E0063C8B2 /* ContainerChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7924511AA43E9E0063C8B2 /* ContainerChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		1A79242C1AA438CB0063C8B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A79242E1AA438CB0063C8B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A79242F1AA438CB0063C8B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1A7924311AA438CB0063C8B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A7924321AA438CB0063C8B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A7924311AA438CB0063C8B2 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		1A7924321AA438CB0063C8B2 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		1A7924351AA438CB0063C8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A7924371AA438CB0063C8B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A79243A1AA438CB0063C8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A7924401AA438CB0063C8B2 /* ContainerCommunication2DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContainerCommunication2DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7924451AA438CB0063C8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7924461AA438CB0063C8B2 /* ContainerCommunication2DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerCommunication2DemoTests.m; sourceTree = "<group>"; };
+		1A7924501AA43E9E0063C8B2 /* ContainerChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerChildViewController.h; sourceTree = "<group>"; };
+		1A7924511AA43E9E0063C8B2 /* ContainerChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				1A79242E1AA438CB0063C8B2 /* AppDelegate.h */,
 				1A79242F1AA438CB0063C8B2 /* AppDelegate.m */,
-				1A7924311AA438CB0063C8B2 /* ViewController.h */,
-				1A7924321AA438CB0063C8B2 /* ViewController.m */,
+				1A7924311AA438CB0063C8B2 /* ParentViewController.h */,
+				1A7924321AA438CB0063C8B2 /* ParentViewController.m */,
 				1A7924341AA438CB0063C8B2 /* Main.storyboard */,
 				1A7924371AA438CB0063C8B2 /* Images.xcassets */,
 				1A7924391AA438CB0063C8B2 /* LaunchScreen.xib */,
 				1A79242A1AA438CB0063C8B2 /* Supporting Files */,
+				1A7924501AA43E9E0063C8B2 /* ContainerChildViewController.h */,
+				1A7924511AA43E9E0063C8B2 /* ContainerChildViewController.m */,
 			);
 			path = ContainerCommunication2Demo;
 			sourceTree = "<group>";
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A7924331AA438CB0063C8B2 /* ViewController.m in Sources */,
+				1A7924331AA438CB0063C8B2 /* ParentViewController.m in Sources */,
 				1A7924301AA438CB0063C8B2 /* AppDelegate.m in Sources */,
+				1A7924521AA43E9E0063C8B2 /* ContainerChildViewController.m in Sources */,
 				1A79242D1AA438CB0063C8B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *passValToChildVCBtn;
 
 @property (weak, nonatomic) IBOutlet UILabel *showContainerValLB;
+@property (weak, nonatomic) IBOutlet UIButton *passValueToContainerEvent;
 
 @end
 

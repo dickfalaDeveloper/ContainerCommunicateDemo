@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *showParentValLB;
 @property (weak, nonatomic) IBOutlet UITextField *childTF;
 @property (weak, nonatomic) IBOutlet UIButton *passToParentBtn;
+@property (weak, nonatomic) IBOutlet UIButton *passValueToParentBtnEvent;
 
 @end

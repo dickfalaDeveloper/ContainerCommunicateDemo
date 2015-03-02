@@ -85,6 +85,7 @@
                     <connections>
                         <outlet property="parentTF" destination="WRL-Ws-9XN" id="YVs-fJ-yyU"/>
                         <outlet property="passValToChildVCBtn" destination="dro-Zp-xpD" id="VWi-Po-6iE"/>
+                        <outlet property="passValueToContainerEvent" destination="dro-Zp-xpD" id="0fw-Nq-ge8"/>
                         <outlet property="showContainerValLB" destination="CqH-4l-cXv" id="HMH-N2-x0u"/>
                     </connections>
                 </viewController>
@@ -164,12 +165,13 @@
                     <connections>
                         <outlet property="childTF" destination="zpf-Jd-miJ" id="AxY-4v-4ae"/>
                         <outlet property="passToParentBtn" destination="rtA-ih-E96" id="HjJ-yj-6sL"/>
+                        <outlet property="passValueToParentBtnEvent" destination="rtA-ih-E96" id="M1V-3C-wnf"/>
                         <outlet property="showParentValLB" destination="89T-Ap-foD" id="igR-BR-tBT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YN2-0I-VDZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="986.5"/>
+            <point key="canvasLocation" x="545" y="950.5"/>
         </scene>
     </scenes>
 </document>
